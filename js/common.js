@@ -122,7 +122,13 @@ $('.buttons-balance__btn').on('click', function(e) {
 		$(".next-step-balance").click(function(e) {
 		e.preventDefault();
 		$(this).parents(".step-balance").fadeOut(0);
-		$(this).parents(".step-balance").siblings(".step-balance").fadeIn(200);
+		$(this).parents(".step-balance").next(".step-balance").fadeIn(200);
+	});
+
+		$(".back-step-balance").click(function(e) {
+		e.preventDefault();
+		$(this).parents(".step-balance").fadeOut(0);
+		$(this).parents(".step-balance").prev(".step-balance").fadeIn(200);
 	});
 
 	//switcher

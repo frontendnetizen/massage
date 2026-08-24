@@ -470,6 +470,7 @@
     }
     .subscribe__form {
         margin-top: 30px;
+        margin-left: 0;
     }
     .subscribe__line {
         display: block;
@@ -676,6 +677,7 @@
     }
     .descr-title {
         font-size: 12px;
+        margin-bottom: 22px;
     }
     .page-catalog .title {
         margin-bottom: 10px;
@@ -1106,7 +1108,7 @@
     }
     .line-price__title {
         font-size: 10px;
-        margin-bottom: 8px;
+        margin-bottom: 6px;
     }
     .line-price__column {
         padding-top: 14px;
@@ -1121,7 +1123,7 @@
     .line-price__column:first-child {
         flex: none;
         padding-top: 0;
-        padding-bottom: 14px;
+        padding-bottom: 12px;
         width: 100%;
         border-bottom: 1px rgba(28, 28, 30, 0.04) solid;
     }
@@ -2140,6 +2142,7 @@
     }
     .edit-service__title {
         font-size: 10px;
+        line-height: 70%;
     }
     .edit-service {
         padding: 14px;
@@ -2311,6 +2314,32 @@
     .header .btn-favorites svg {
         width: 18px;
         height: 18px;
+    }
+    .right-form-profile {
+        padding-left: 0;
+    }
+    .count-input {
+        font-size: 10px;
+    }
+    .unit-block--properties .checkbox {
+        font-size: 12px;
+        margin-bottom: 12px;
+    }
+    .unit-block--properties .checkbox label {
+        align-items: center;
+    }
+    .line-price__value {
+        line-height: 120%;
+    }
+    .feature-specialist:last-child {
+        padding-bottom: 12px;
+        margin-bottom: 12px;
+        border-bottom: 1px rgba(28, 28, 30, 0.04) solid;
+    }
+    .about-specialist .row>div:last-child .feature-specialist:last-child {
+        padding-bottom: 0;
+        margin-bottom: 0;
+        border: none;
     }
 }
 

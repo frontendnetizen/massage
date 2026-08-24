@@ -3615,6 +3615,7 @@ section {
 .radio.radio--page label strong {
 	margin-bottom: 3px;
 	display: block;
+	line-height: 135%;
 	font-weight: 500;
 	color: #1c1c1e;
 }
@@ -4805,4 +4806,11 @@ svg * {
 }
 .step-registration:nth-child(5) .unit-form__title {
 	line-height: 119%;
+}
+.item-dropdown__content .radio label,
+.item-dropdown__content .checkbox label {
+	align-items: center;
+}
+.balance-radios .radio.radio--page label {
+	gap: 12px;
 }

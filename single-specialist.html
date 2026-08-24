@@ -14,8 +14,8 @@
 	<link rel="stylesheet" href="libs/datetimepicker/jquery.datetimepicker.min.css" />
 	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick.css" />
 	<link rel="stylesheet" href="css/fonts.css" />
-	<link rel="stylesheet" href="css/main.css?ver=1.1" />
-	<link rel="stylesheet" href="css/media.css?ver=1.1" />
+	<link rel="stylesheet" href="css/main.css?ver=1.2" />
+	<link rel="stylesheet" href="css/media.css?ver=1.2" />
 </head>
 <body>
 
@@ -130,8 +130,9 @@
 					<li><a href="#">Главная</a></li>
 					<li>Страница специалиста</li>
 				</ul>
-				<div class="head-section">
-					<h1 class="title">Анна Петрова, <span class="hidden-mobile">сертифицированный массажист</span> <div class="verified"></div></h1>
+				<div class="head-section head-section--specialist">
+					<h1 class="title">Анна Петрова<span class="hidden-mobile">, сертифицированный массажист</span> <div class="verified"></div></h1>
+					<div class="mobile-descr-specialist show-mobile">Сертифицированный массажист</div>
 				</div>
 				<div class="row">
 					<div class="col-lg-9">
@@ -453,7 +454,7 @@
 								</div>
 							</div>
 							<h2 class="title title--card">О себе</h2>
-							<div class="about-specialist">
+							<div class="about-specialist about-specialist--text">
 								<div class="title-min">Описание</div>
 								<p>Опыт работы более 7 лет. Специализируюсь на спортивном и восстановительном массаже. Помогаю избавиться от боли, снять напряжение и улучшить общее самочувствие. Работаю как в своем кабинете, так и на выезд к вам. Буду рада помочь вам почувствовать себя лучше!</p>
 								<p>Опыт работы более 7 лет. Специализируюсь на спортивном и восстановительном массаже. Помогаю избавиться от боли, снять напряжение и улучшить общее самочувствие.</p>
@@ -468,7 +469,7 @@
 							<div class="about-specialist about-specialist--prices">
 								<div class="row">
 									<div class="col-md-4">
-										<div class="about-specialist__unit">
+										<div class="about-specialist__unit about-specialist__unit--prices">
 											<div class="title-min">Классический массаж</div>
 											<div class="element-about">
 												<div class="element-about__unit">
@@ -517,7 +518,7 @@
 										</div>
 									</div>
 									<div class="col-md-4">
-										<div class="about-specialist__unit">
+										<div class="about-specialist__unit about-specialist__unit--prices">
 											<div class="title-min">Расслабляющие</div>
 											<div class="element-about">
 												<div class="element-about__unit">
@@ -566,7 +567,7 @@
 										</div>
 									</div>
 									<div class="col-md-4">
-										<div class="about-specialist__unit">
+										<div class="about-specialist__unit about-specialist__unit--prices">
 											<div class="title-min">Лечебные</div>
 											<div class="element-about">
 												<div class="element-about__unit">
@@ -985,7 +986,7 @@
 							</div>
 							<div class="contact-specialist">
 								<div class="contact-specialist__title">Онлайн-запись</div>
-								<div class="contact-specialist__descr">Выберите удобное для себя время и забронируйте сеанс</div>
+								<div class="contact-specialist__descr">Выберите удобное для себя время <br>и забронируйте сеанс</div>
 								<a href="#" class="btn">Записаться онлайн</a>
 							</div>
 							<a href="#" class="btn btn--alert">Сообщить о нарушении</a>
@@ -1900,7 +1901,7 @@
 	<script src="libs/mask/jquery.maskedinput.js"></script>
 	<script src="libs/datetimepicker/jquery.datetimepicker.full.min.js"></script>
 	<script src="libs/jQueryFormStyler-master/jquery.formstyler.min.js"></script>
-	<script src="js/common.js?ver=1.1"></script>
+	<script src="js/common.js?ver=1.2"></script>
 	<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
 	<script>
 		$(document).ready(function () {

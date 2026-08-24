@@ -14,8 +14,8 @@
 	<link rel="stylesheet" href="libs/datetimepicker/jquery.datetimepicker.min.css" />
 	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick.css" />
 	<link rel="stylesheet" href="css/fonts.css" />
-	<link rel="stylesheet" href="css/main.css?ver=1.1" />
-	<link rel="stylesheet" href="css/media.css?ver=1.1" />
+	<link rel="stylesheet" href="css/main.css?ver=1.2" />
+	<link rel="stylesheet" href="css/media.css?ver=1.2" />
 </head>
 <body>
 
@@ -133,10 +133,10 @@
 				<h1 class="title">Каталог салонов</h1>
 				<div class="descr-title">Найдено 1248 объявлений</div>
 				<div id="map" class="map-catalog map-catalog--salons"></div>
-				<div class="filter-block">
-					<div class="filter-catalog">
+				<div class="filter-block filter-block--salon">
+					<div class="filter-catalog filter-catalog--salon">
 						<div class="item-dropdown item-dropdown--sorting">
-							<div class="item-dropdown__head">Сортировка: <strong>Сначала новые</strong></div>
+							<div class="item-dropdown__head"><span>Сортировка: <strong>Сначала новые</strong></span></div>
 							<div class="item-dropdown__content">
 								<div class="radio">
 									<label>
@@ -491,53 +491,6 @@
 							<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.2735 4L3.3335 4.94L6.38683 8L3.3335 11.06L4.2735 12L8.2735 8L4.2735 4Z" fill="#1C1C1E" /><path d="M8.66656 4L7.72656 4.94L10.7799 8L7.72656 11.06L8.66656 12L12.6666 8L8.66656 4Z" fill="#1C1C1E" /></svg>
 						</a>
 					</div>
-				</div>
-			</div>
-		</section>
-
-		<section class="section-text">
-			<div class="container">
-				<div class="head-section">
-					<h2 class="title">Информационный блок</h2>
-				</div>
-				<p>Персональные тренеры, групповые программы, функциональный тренинг, пилатес, растяжка и другие направления для здоровья и формы. Классический, расслабляющий, лечебный массаж и другие техники для снятия напряжения и восстановления. Косметология, уходовые процедуры, маникюр, парикмахерские услуги и профессиональный макияж.</p>
-				<p>Салоны красоты, спа-комплексы и студии с широким спектром услуг для вашего комфорта и ухода. Йога, медитации, дыхательные практики и осознанные занятия для гармонии тела и души.</p>
-			</div>
-		</section>
-
-		<section class="section-tags section-tags--page">
-			<div class="container">
-				<div class="head-section">
-					<h2 class="title">Популярные категории</h2>
-				</div>
-				<div class="tags tags--main hidden-mobile">
-					<a href="#" class="tags__item">#СпортивныйМассаж</a>
-					<a href="#" class="tags__item">#ТайскийМассаж</a>
-					<a href="#" class="tags__item">#Дренажный</a>
-					<a href="#" class="tags__item">#Антицеллюлитный</a>
-					<a href="#" class="tags__item">#Оздоровительный</a>
-					<a href="#" class="tags__item">#Детский</a>
-					<a href="#" class="tags__item">#Аюрведический</a>
-					<a href="#" class="tags__item">#SPA</a>
-					<a href="#" class="tags__item">#Йога</a>
-					<a href="#" class="tags__item">#Гармония</a>
-					<a href="#" class="tags__item">#ТайскийМассаж</a>
-					<a href="#" class="tags__item">#Услуга</a>
-					<a href="#" class="tags__item">#Медитация</a>
-					<a href="#" class="tags__item">#Детский</a>
-					<a href="#" class="tags__item">#Напряжение</a>
-					<a href="#" class="tags__item">#Практика</a>
-					<a href="#" class="tags__item">#SPA</a>
-					<a href="#" class="tags__item">#Здоровье</a>
-					<a href="#" class="tags__item">#УходовыеПроцедуры</a>
-				</div>
-				<div class="tags tags--main show-mobile">
-					<a href="#" class="tags__item">#Аюрведический</a>
-					<a href="#" class="tags__item">#ТайскийМассаж</a>
-					<a href="#" class="tags__item">#Дренажный</a>
-					<a href="#" class="tags__item">#СпортивныйМассаж</a>
-					<a href="#" class="tags__item">#Антицеллюлитный</a>
-					<a href="#" class="tags__item">#SPA</a>
 				</div>
 			</div>
 		</section>
@@ -1410,7 +1363,7 @@
 	<script src="libs/mask/jquery.maskedinput.js"></script>
 	<script src="libs/datetimepicker/jquery.datetimepicker.full.min.js"></script>
 	<script src="libs/jQueryFormStyler-master/jquery.formstyler.min.js"></script>
-	<script src="js/common.js?ver=1.1"></script>
+	<script src="js/common.js?ver=1.2"></script>
 	<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
 	<script>
 		$(document).ready(function () {
